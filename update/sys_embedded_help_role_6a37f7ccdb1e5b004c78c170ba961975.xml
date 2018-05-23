@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role/>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-21 12:46:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6a37f7ccdb1e5b004c78c170ba961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ee37f7ccdb1e5b004c78c170ba961973</sys_name>
+        <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
+        <sys_update_name>sys_embedded_help_role_6a37f7ccdb1e5b004c78c170ba961975</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-21 12:46:25</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

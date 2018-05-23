@@ -9,12 +9,23 @@
         <http_method>GET</http_method>
         <name>table-get-record</name>
         <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
-
-	response.setBody({
-		tableName: request.pathParams.tableName || '',
-		sys_id: request.pathParams.sys_id || '',
+	var result;
+	
+	var sysparm_fields = String(request.queryParams.sysparm_fields) || '';
+	sysparm_fields = sysparm_fields.split(',').filter(function (v) {
+		return Boolean(v);
 	});
-
+	
+	var baseClient = new BaseClient();
+	var rec = baseClient.getById(request.pathParams.tableName, request.pathParams.sys_id);
+	
+	if(rec) {
+		result = baseClient.formatRecord(rec, false, sysparm_fields);
+		response.setBody(result);
+	} else {
+		response.setError(baseClient.getNotFoundError());
+	}
+	
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_93331_tenfold_sn/table/{tableName}/{sys_id}</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
@@ -29,7 +40,7 @@
         <sys_created_on>2018-05-21 12:09:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>842d6708db1e5b004c78c170ba9619ae</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>table-get-record</sys_name>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
         <sys_policy/>
@@ -37,7 +48,7 @@
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>sys_ws_operation_842d6708db1e5b004c78c170ba9619ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-21 12:12:10</sys_updated_on>
+        <sys_updated_on>2018-05-23 11:55:20</sys_updated_on>
         <web_service_definition display_value="Table">d7b12784db1e5b004c78c170ba961989</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>
