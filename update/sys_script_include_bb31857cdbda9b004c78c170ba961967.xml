@@ -21,7 +21,7 @@ BaseClient.prototype = {
 		};
 	},
 	getById: function (tableName, sysId) {
-		var gr = new GlideRecord(tableName);
+		var gr = new GlideRecordSecure(tableName);
 		gr.query('sys_id', sysId);
 		var result = gr.next() ? gr : null;
 		return result;
@@ -90,7 +90,7 @@ BaseClient.prototype = {
         <sys_created_on>2018-05-23 07:43:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bb31857cdbda9b004c78c170ba961967</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>BaseClient</sys_name>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
         <sys_policy>read</sys_policy>
@@ -98,6 +98,6 @@ BaseClient.prototype = {
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>sys_script_include_bb31857cdbda9b004c78c170ba961967</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-05 11:26:00</sys_updated_on>
+        <sys_updated_on>2018-06-05 13:25:02</sys_updated_on>
     </sys_script_include>
 </record_update>
