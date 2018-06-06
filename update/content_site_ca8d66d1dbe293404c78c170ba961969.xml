@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_site">
+    <content_site action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_cartless>false</catalog_cartless>
+        <catalog_headless>false</catalog_headless>
+        <default_layout/>
+        <default_page display_value="Tenfold Support Center">f5107615dbe293404c78c170ba961914</default_page>
+        <default_theme/>
+        <description/>
+        <gauge_page/>
+        <login_page/>
+        <name>Tenfold Site</name>
+        <search_page/>
+        <sys_class_name>content_site</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-06 14:54:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ca8d66d1dbe293404c78c170ba961969</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Tenfold Site</sys_name>
+        <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
+        <sys_update_name>content_site_ca8d66d1dbe293404c78c170ba961969</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-06 15:05:04</sys_updated_on>
+        <title/>
+        <url_suffix>tenfold</url_suffix>
+    </content_site>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca8d66d1dbe293404c78c170ba961969"/>
+</record_update>
