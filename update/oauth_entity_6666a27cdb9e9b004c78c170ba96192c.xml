@@ -13,7 +13,7 @@
         <comments/>
         <default_grant_type>password</default_grant_type>
         <id_token_lifespan>86400</id_token_lifespan>
-        <logo_url/>
+        <logo_url>https://www.tenfold.com/wp-content/uploads/2017/09/Tenfold-logo-icon.svg</logo_url>
         <message_signature_lifespan>60</message_signature_lifespan>
         <name>Tenfold</name>
         <oauth_api_script/>
@@ -26,7 +26,7 @@
         <sys_created_on>2018-05-23 14:49:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6666a27cdb9e9b004c78c170ba96192c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Tenfold</sys_name>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
         <sys_policy/>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>oauth_entity_6666a27cdb9e9b004c78c170ba96192c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-25 13:51:11</sys_updated_on>
+        <sys_updated_on>2018-06-11 13:12:19</sys_updated_on>
         <token_url/>
         <type>client</type>
         <user/>
