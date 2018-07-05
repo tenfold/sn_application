@@ -10,7 +10,7 @@
         <name>table-create-record</name>
         <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
     var baseClient = new BaseClient();
-    var gr = new GlideRecord(request.pathParams.tableName);
+    var gr = new GlideRecordSecure(request.pathParams.tableName);
 	var recordData = request.body.data || {};
 	var result;
 	
@@ -37,7 +37,7 @@
         <sys_created_on>2018-05-21 12:01:32</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c87b6708db1e5b004c78c170ba9619a7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>table-create-record</sys_name>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
         <sys_policy/>
@@ -45,7 +45,7 @@
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>sys_ws_operation_c87b6708db1e5b004c78c170ba9619a7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-05 13:33:25</sys_updated_on>
+        <sys_updated_on>2018-07-04 12:50:02</sys_updated_on>
         <web_service_definition display_value="Table">d7b12784db1e5b004c78c170ba961989</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>
