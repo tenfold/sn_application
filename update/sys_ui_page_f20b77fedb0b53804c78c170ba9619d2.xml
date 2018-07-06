@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>homepages</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_93331_tenfold_sn_Tenfold Support Center.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<h1>Tenfold Basics</h1>
+	<h2>Interface Overviews</h2>
+	<ul>
+		<li>The Chrome Extension</li>
+		<li>Analytics Overview</li>
+		<li>The Floating UI</li>
+	</ul>
+</j:jelly>]]></html>
+        <name>Tenfold Support Center</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-06 08:56:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f20b77fedb0b53804c78c170ba9619d2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Tenfold Support Center</sys_name>
+        <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
+        <sys_update_name>sys_ui_page_f20b77fedb0b53804c78c170ba9619d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-06 09:03:20</sys_updated_on>
+    </sys_ui_page>
+</record_update>
