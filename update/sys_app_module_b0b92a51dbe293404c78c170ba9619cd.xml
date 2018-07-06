@@ -10,7 +10,7 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>HTML</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
         <mobile_title>Support Center</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b0b92a51dbe293404c78c170ba9619cd</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Tenfold Support Center</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>sys_app_module_b0b92a51dbe293404c78c170ba9619cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-06 09:04:38</sys_updated_on>
+        <sys_updated_on>2018-07-06 09:23:04</sys_updated_on>
         <timeline_page/>
         <title>Tenfold Support Center</title>
         <uncancelable>false</uncancelable>
