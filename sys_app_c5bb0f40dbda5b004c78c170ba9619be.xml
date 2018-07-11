@@ -16,21 +16,21 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Next Generation CTI. Recognize and respond to your customers at the moment of interaction</short_description>
         <source>x_93331_tenfold_sn</source>
-        <store_correlation_id>REPOAPP0000068890</store_correlation_id>
+        <store_correlation_id>REPOAPP0000068891</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-21 09:36:16</sys_created_on>
         <sys_id>c5bb0f40dbda5b004c78c170ba9619be</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-11 15:39:02</sys_updated_on>
+        <sys_updated_on>2018-07-11 15:43:46</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_93331_tenfold_sn.user" name="x_93331_tenfold_sn.user">81bb074cdbda5b004c78c170ba9619c7</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.36</version>
+        <version>1.0.37</version>
     </sys_app>
 </record_update>
