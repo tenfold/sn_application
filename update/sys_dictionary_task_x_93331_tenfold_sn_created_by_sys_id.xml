@@ -53,7 +53,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 13:18:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>8338c260db1717804c78c170ba961911</sys_id>
+        <sys_id>d82783a0db9717804c78c170ba961948</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Owner</sys_name>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>sys_dictionary_task_x_93331_tenfold_sn_created_by_sys_id</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-07-11 11:01:31</sys_updated_on>
+        <sys_updated_on>2018-07-11 15:36:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
