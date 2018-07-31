@@ -116,9 +116,9 @@ BaseClient.prototype = {
 		var resultObjectFields = fields.length ? fields : recordFields;
 		resultObjectFields.forEach(function (propName) {
 			if(propName in self.protectedFields) {
-				result[propName] = self.protectedFields[propName];
+				result[propName] = self.protectedFields[propName] || '';
 			} else {
-				result[propName] = self.formatValue(record, propName, displayValue);
+				result[propName] = self.formatValue(record, propName, displayValue) || '';
 			}
 				
 		});
@@ -131,7 +131,7 @@ BaseClient.prototype = {
         <sys_created_on>2018-05-23 07:43:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bb31857cdbda9b004c78c170ba961967</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>BaseClient</sys_name>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
         <sys_policy>read</sys_policy>
@@ -139,6 +139,6 @@ BaseClient.prototype = {
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>sys_script_include_bb31857cdbda9b004c78c170ba961967</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-12 14:45:13</sys_updated_on>
+        <sys_updated_on>2018-07-31 07:55:30</sys_updated_on>
     </sys_script_include>
 </record_update>
