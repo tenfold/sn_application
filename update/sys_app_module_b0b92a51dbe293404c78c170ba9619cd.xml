@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Tenfold for ServiceNow">09bb074cdbda5b004c78c170ba9619c3</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Support Center</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>true</override_menu_roles>
+        <query>x_93331_tenfold_sn_TenfoldSupportCenter.do</query>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-06 14:37:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0b92a51dbe293404c78c170ba9619cd</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Tenfold Support Center</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
+        <sys_update_name>sys_app_module_b0b92a51dbe293404c78c170ba9619cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-11 11:30:11</sys_updated_on>
+        <timeline_page/>
+        <title>Tenfold Support Center</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

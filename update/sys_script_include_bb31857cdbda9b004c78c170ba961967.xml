@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_93331_tenfold_sn.BaseClient</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>BaseClient</name>
+        <script><![CDATA[var BaseClient = Class.create();
+BaseClient.prototype = {
+    initialize: function() {
+    },
+	// Fields in different tables, that we have not read in any circumstances (Planed to change in Sprint 13)
+	protectedFields: {
+		'building': '',
+		'cost_center': '',
+		'default_perspective': '',
+		'sys_domain': '',
+		'ldap_server': '',
+		'manager': '',
+		'schedule': '',
+		'assignment_group': '',
+		'business_service': '',
+		'caused_by': '',
+		'rfc': '',
+		'cmdb_ci': '',
+		'contract': '',
+		'delivery_plan': '',
+		'delivery_task': '',
+		'problem_id': '',
+		'variables': '',
+		'account': '',
+		'asset': '',
+		'change': '',
+		'consumer': '',
+		'entitlement': '',
+		'product': '',
+		'sn_app_cs_social_social_profile': '',
+		'sys_scope': '',
+		'dynamic_default_value': '',
+		'dynamic_ref_qual': '',
+		'sys_package': '',
+		'reference': '',
+		'internal_type': '',
+		'wf_activity': '',
+		'problem': ''
+	},
+	getNotFoundError: function () {
+		return {
+			error: {
+				detail: 'Record doesn\'t exist or ACL restricts the record retrieval',
+				message: 'No Record found'
+			},
+			status: "failure"
+		};
+	},
+	getById: function (tableName, sysId) {
+		var gr = new GlideRecordSecure(tableName);
+		gr.query('sys_id', sysId);
+		var result = gr.next() ? gr : null;
+		return result;
+	},
+	formatValue: function (record, propName, displayValue) {
+		var self = this;
+		var BASE_TABLES_MAP = {
+			sn_customer_service_case: 'task',
+			sn_customer_service_task: 'task',
+			incident: 'task',
+			incident_task: 'task',
+			customer_contact: 'sys_user'
+		};
+		var propParts = propName.split('.');
+		var propRoot = propParts[0];
+		var propRest = propParts.slice(1).join('.') || propRoot;
+		var rec = record;
+		
+		var element = rec.getElement(propRoot);
+		var refTable = element.getReferenceTable ? element.getReferenceTable() : '';
+        var baseRefTable = BASE_TABLES_MAP[refTable];
+        var recordRef;
+
+		if(refTable) {
+			recordRef = self.getById(refTable, element.toString());
+			if(!recordRef && baseRefTable) {
+				recordRef = self.getById(baseRefTable, element.toString());
+			}
+		}
+		
+		if(recordRef) { // Referenced record has been found
+			rec = recordRef;
+		} else if (!recordRef && refTable) { // Referenced record was not found
+			rec = {
+				getValue: function () { return ''; },
+				getDisplayValue: function () { return ''; }
+			};
+		} // Field is not "reference field", so use top level record object
+
+		if(displayValue == 'all') {
+			gs.info('Getting dislay ALL value');
+			return {
+				value: rec.getValue(propRest),
+				display_value: rec.getDisplayValue(propRest)
+			};
+		} else if(displayValue === 'true') {
+			return rec.getDisplayValue(propRest);
+		} else {
+			return rec.getValue(propRest);
+		}
+	},
+	formatRecord: function (record, displayValue, fields) {
+		var self = this;
+		var result = {};
+		var recordFields = Object.keys(record);
+		
+		var resultObjectFields = fields.length ? fields : recordFields;
+		resultObjectFields.forEach(function (propName) {
+			if(propName in self.protectedFields) {
+				result[propName] = self.protectedFields[propName] || '';
+			} else {
+				result[propName] = self.formatValue(record, propName, displayValue) || '';
+			}
+				
+		});
+		return result;
+	},
+    type: 'BaseClient'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-23 07:43:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb31857cdbda9b004c78c170ba961967</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name>BaseClient</sys_name>
+        <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
+        <sys_update_name>sys_script_include_bb31857cdbda9b004c78c170ba961967</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-31 07:55:30</sys_updated_on>
+    </sys_script_include>
+</record_update>

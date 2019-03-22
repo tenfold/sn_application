@@ -2,10 +2,10 @@
 <record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
-        <enforce_license>log</enforce_license>
+        <enforce_license>enforce</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
-        <license_model>none</license_model>
+        <license_model>capacity</license_model>
         <logo/>
         <menu display_value="Tenfold for ServiceNow">09bb074cdbda5b004c78c170ba9619c3</menu>
         <name>Tenfold for ServiceNow</name>
@@ -14,23 +14,23 @@
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_93331_tenfold_sn</scope>
         <scoped_administration>false</scoped_administration>
-        <short_description/>
+        <short_description>Next Generation CTI. Recognize and respond to your customers at the moment of interaction</short_description>
         <source>x_93331_tenfold_sn</source>
-        <store_correlation_id/>
-        <store_url/>
+        <store_correlation_id>APP0009533</store_correlation_id>
+        <store_url>https://tpp.servicenow.com/sn_appstore_s</store_url>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-21 09:36:16</sys_created_on>
         <sys_id>c5bb0f40dbda5b004c78c170ba9619be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>111</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-21 09:36:16</sys_updated_on>
+        <sys_updated_on>2018-08-08 17:30:01</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_93331_tenfold_sn.user" name="x_93331_tenfold_sn.user">81bb074cdbda5b004c78c170ba9619c7</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.60</version>
     </sys_app>
 </record_update>

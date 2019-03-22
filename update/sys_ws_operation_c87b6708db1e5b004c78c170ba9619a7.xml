@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>POST</http_method>
+        <name>table-create-record</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    var baseClient = new BaseClient();
+    var gr = new GlideRecordSecure(request.pathParams.tableName);
+	var recordData = request.body.data || {};
+	var result;
+	
+	Object.keys(recordData).forEach(function (propName) {
+		gr[propName] = recordData[propName];
+	});
+	
+	gr.insert();
+	
+	result = baseClient.formatRecord(gr, false, []);
+	response.setBody(result);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_93331_tenfold_sn/table/{tableName}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/{tableName}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-21 12:01:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c87b6708db1e5b004c78c170ba9619a7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>table-create-record</sys_name>
+        <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
+        <sys_update_name>sys_ws_operation_c87b6708db1e5b004c78c170ba9619a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-04 12:50:02</sys_updated_on>
+        <web_service_definition display_value="Table">d7b12784db1e5b004c78c170ba961989</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

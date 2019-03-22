@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_93331_tenfold_sn_TenfoldSupportCenter.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<div class="container">
+<div class="row">
+   <div class="col-12">
+      <h3>Contact Support</h3>
+      <ul>
+         <li><a rel="noopener noreferrer nofollow" target="_blank" href="https://www.tenfold.com/support-center/new" role="button">Submit Support Request</a></li>
+         <li><a rel="noopener noreferrer nofollow" target="_blank" href="https://www.tenfold.com/support-center/new" role="button">Request a Demo</a></li>
+      </ul>
+   </div>
+</div>
+<div class="row">
+   <div  class="col-12 ">
+      <div>
+         <h3>Interface Overviews</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/getti/the-chrome-extension" rel="noopener noreferrer nofollow" target="_blank">The Chrome Extension</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/analytics-overview/" rel="noopener noreferrer nofollow" target="_blank">Analytics Overview</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/getti/the-floati" rel="noopener noreferrer nofollow" target="_blank">The Floating UI</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/getti/the-tenfold-dashboard" rel="noopener noreferrer nofollow" target="_blank">The Tenfold Dashboard</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/opencti-overview" rel="noopener noreferrer nofollow" target="_blank">Tenfold Embedded UI (OpenCTI)</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/getti" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Features</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/support-centerusers-agentsfeatures/launchi" rel="noopener noreferrer nofollow" target="_blank">Launching an Online Meeting</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/floati-guide/" rel="noopener noreferrer nofollow" target="_blank">Floating UI SMS Guide</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/features/case-creation-with-tenfold" rel="noopener noreferrer nofollow" target="_blank">Cases and Opportunities in Tenfold</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/click-to-dial-with-tenfold/" rel="noopener noreferrer nofollow" target="_blank">Click to Dial With Tenfold</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/floati-guide/" rel="noopener noreferrer nofollow" target="_blank">Floating UI Notes Guide</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/support-centerusers-agentsfeatures/first-responder" rel="noopener noreferrer nofollow" target="_blank">First Responder</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/support-centerusers-agentsfeatures/follow-task-edit" rel="noopener noreferrer nofollow" target="_blank">Follow-up Task Edit</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/support-centerusers-agentsfeatures/log-to-textarea" rel="noopener noreferrer nofollow" target="_blank">Log to Textarea</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/support-centerusers-agentsfeatures/tenfold-app-auto-updater" rel="noopener noreferrer nofollow" target="_blank">Tenfold App Auto-Updater</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/support-centerusers-agentsfeatures/mobile-sync" rel="noopener noreferrer nofollow" target="_blank">Mobile Sync</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/features" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Functionality</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/set-or-reset-your-dashboard-password/" rel="noopener noreferrer nofollow" target="_blank">Reset Your Tenfold Password</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/reassign-calls/" rel="noopener noreferrer nofollow" target="_blank">Reassign Calls in the Floating UI</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/how-to-update-chrome-extension/" rel="noopener noreferrer nofollow" target="_blank">Updating the Chrome Extension</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/expand-and-collapse-the-floati/" rel="noopener noreferrer nofollow" target="_blank">Expand and Collapse the Floating UI</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/loggi-out-of-tenfold/" rel="noopener noreferrer nofollow" target="_blank">Logging In and Out of Tenfold</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/features/associati-with-crm-records/" rel="noopener noreferrer nofollow" target="_blank">Matching a Phone Number with CRM Records</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/how-it-works" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+   <div  class="col-12 ">
+      <div>
+         <h3>Feature Configurations</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/features/loggi/" rel="noopener noreferrer nofollow" target="_blank">Logging Unmatched Calls to CRM</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/local-presence-enable" rel="noopener noreferrer nofollow" target="_blank">Local Presence Overview</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/features/default-floati" rel="noopener noreferrer nofollow" target="_blank">Default Floating UI Mode</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/click-to-dial-country-codes" rel="noopener noreferrer nofollow" target="_blank">Click to Dial Country Codes</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/support-for-teams/" rel="noopener noreferrer nofollow" target="_blank">Support for Teams</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/admins-managers/analytics-configurations" rel="noopener noreferrer nofollow" target="_blank">Analytics Configurations</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/features/features" rel="noopener noreferrer nofollow" target="_blank">Features</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/features/advanced-click-to-dial" rel="noopener noreferrer nofollow" target="_blank">Advanced Click to Dial</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/features/agent-goals" rel="noopener noreferrer nofollow" target="_blank">Agent Goals</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/automate-resource-support-center/users-agents/features/automate-resource-creation" rel="noopener noreferrer nofollow" target="_blank">Automate Resource Creation</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/features/cases" rel="noopener noreferrer nofollow" target="_blank">Cases</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/users-agents/features/create-record-buttons" rel="noopener noreferrer nofollow" target="_blank">Create Record Buttons</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/admins-managers/how-it-works" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Admin Basics</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/dispositions-guide/" rel="noopener noreferrer nofollow" target="_blank">Dispositions Guide</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/admins-managers/getti/change-users-password" rel="noopener noreferrer nofollow" target="_blank">Change a User's Password</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/configuri" rel="noopener noreferrer nofollow" target="_blank">Adding/Removing Admins</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/dashboard-addi-users/" rel="noopener noreferrer nofollow" target="_blank">Adding/Removing Users</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/enabli/" rel="noopener noreferrer nofollow" target="_blank">Enabling/Disabling Users</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/registeri/" rel="noopener noreferrer nofollow" target="_blank">Registering/Assigning User Extensions</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/admins-managers/getti/installi-opencti" rel="noopener noreferrer nofollow" target="_blank">Installing the Embedded UI (OpenCTI)</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/admins-managers/getti" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Tips for Advanced Users</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/manage-tenfold-cookies" rel="noopener noreferrer nofollow" target="_blank">Manage Tenfold Cookies</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/inbound-number-campaign-tracking/" rel="noopener noreferrer nofollow" target="_blank">Inbound Number (Campaign) Tracking</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/queue-calls/" rel="noopener noreferrer nofollow" target="_blank">Queue Calls</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/display-tenfold-analytics-inside-crm/" rel="noopener noreferrer nofollow" target="_blank">Display Tenfold Analytics Inside Your CRM</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/tenfold-analytics-in-salesforce" rel="noopener noreferrer nofollow" target="_blank">Display Tenfold Analytics Tab in Salesforce</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/admins-managers/tips-advanced-users/export-calls-complete-itemized-phone-report" rel="noopener noreferrer nofollow" target="_blank">Export "All Calls" Analytics Report</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/display-analytics-on-a-big-screen-tv/" rel="noopener noreferrer nofollow" target="_blank">Display Analytics on a Big Screen TV</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/admins-managers/tips-advanced-users" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>FAQs</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/billi-tenfold-dashboard/" rel="noopener noreferrer nofollow" target="_blank">Manage Tenfold Billing Settings</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/privacy-policy/" rel="noopener noreferrer nofollow" target="_blank">Privacy Policy</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/known-issues-workarounds/tenfold-status-page" rel="noopener noreferrer nofollow" target="_blank">Tenfold Status Page</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/faqs/faqs" rel="noopener noreferrer nofollow" target="_blank">FAQs</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/faqs/" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+   <div  class="col-12 ">
+      <div>
+         <h3>Native Integrations – (Asterisk, S-Net, Broadcom, PIAF, etc)</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/nextiva-find-a-users-device-ids/" rel="noopener noreferrer nofollow" target="_blank">Nextiva – Find a User's Device IDs</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/nextiva-click-to-dial-checklist/" rel="noopener noreferrer nofollow" target="_blank">Nextiva Click to Dial Checklist</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cannot-connect-asterisk-based-phone-system/" rel="noopener noreferrer nofollow" target="_blank">Cannot Connect Asterisk-based Phone System</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/native-integration/" rel="noopener noreferrer nofollow" target="_blank">Supported Native Integration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/switch-to-native-ri/" rel="noopener noreferrer nofollow" target="_blank">Switch To Native RingCentral Integration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/nextiva-integration/" rel="noopener noreferrer nofollow" target="_blank">Nextiva Integration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/yeastar-mypbx-integration/" rel="noopener noreferrer nofollow" target="_blank">Yeastar MyPBX Integration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/switchvox-digium-click-to-dial-setup/" rel="noopener noreferrer nofollow" target="_blank">Switchvox / Digium Click-to-Dial Setup</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/broadsoft-integration-details/" rel="noopener noreferrer nofollow" target="_blank">Broadsoft Integration Details</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/s-net-configuration-instructions/" rel="noopener noreferrer nofollow" target="_blank">S-Net Configuration Instructions</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/asterisksugarcrm-call-recording/" rel="noopener noreferrer nofollow" target="_blank">Asterisk/SugarCRM Call Recording</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/ri-queues/" rel="noopener noreferrer nofollow" target="_blank">Ring Groups vs Queues</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/native-integrations-asterisk-s-net-broadcom-piaf-etc/" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>On-Premise Phone System Requirements</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-troubleshooti/" rel="noopener noreferrer nofollow" target="_blank">Cloud Troubleshooting – Avaya BCM</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/alcatel-omni-pcx-enterprise-oxe-integration-requirements/" rel="noopener noreferrer nofollow" target="_blank">Alcatel Omni PCX Enterprise (OXE) Integration Requirements</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/avaya-ip-office-crm-integration/" rel="noopener noreferrer nofollow" target="_blank">Avaya IP Office CRM Integration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/setup-installation/premise-phone-system-requirements/avaya-communication-manager-crm-integration-2" rel="noopener noreferrer nofollow" target="_blank">Avaya Communication Manager: CRM Integration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/on-premise-phone-system-requirements/" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>CRM Integration</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/connect-insightly/" rel="noopener noreferrer nofollow" target="_blank">Insightly</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/connect-infusionsoft/" rel="noopener noreferrer nofollow" target="_blank">Infusionsoft Integration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/connect-oracle/" rel="noopener noreferrer nofollow" target="_blank">Oracle</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/connect-zendesk/" rel="noopener noreferrer nofollow" target="_blank">Zendesk</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/connect-smartoffice/" rel="noopener noreferrer nofollow" target="_blank">SmartOffice</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/connect-microsoft-dynamics/" rel="noopener noreferrer nofollow" target="_blank">Microsoft Dynamics</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/connect-salesforce/" rel="noopener noreferrer nofollow" target="_blank">Salesforce</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/connect-sugarcrm/" rel="noopener noreferrer nofollow" target="_blank">How to Connect SugarCRM</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/salesforce-call-loggi/" rel="noopener noreferrer nofollow" target="_blank">Salesforce Call Logging with Tenfold</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/salesforce-synchronize-fields/" rel="noopener noreferrer nofollow" target="_blank">Synchronize Salesforce Fields</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/whitelist-ip-addresses" rel="noopener noreferrer nofollow" target="_blank">Whitelist IP Addresses</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/how-does-it-work-in-sugar/" rel="noopener noreferrer nofollow" target="_blank">How Does It Work in Sugar?</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/crm-integration/" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Phones – Cloud Systems</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-samsu/" rel="noopener noreferrer nofollow" target="_blank">Cloud – Samsung PBX</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/digium-switchvox-setup/" rel="noopener noreferrer nofollow" target="_blank">Digium Switchvox Setup</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/enable-click-to-dial-for-nextiva-softphone/" rel="noopener noreferrer nofollow" target="_blank">Enable Click to Dial for Nextiva Softphone</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/evolve-ip-ossmosis-polycom-instructions/" rel="noopener noreferrer nofollow" target="_blank">Evolve IP OSSmosis Polycom Instructions</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/polycom-instructions-for-phone-com-users/" rel="noopener noreferrer nofollow" target="_blank">Polycom Instructions (for Phone.com users)</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/special-instructions-for-broadband-solutions-virtual-pabx/" rel="noopener noreferrer nofollow" target="_blank">Special Instructions for Broadband Solution's Virtual PABX</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/phones-cloud-systems/" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Phones – Deskphone Integration</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/connect-polycom/" rel="noopener noreferrer nofollow" target="_blank">Polycom Deskphone Configuration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/enable-click-to-dial-on-new-polycom-firmware/" rel="noopener noreferrer nofollow" target="_blank">Enable Click to Dial on new Polycom firmware</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/polycom-deskphone-sip-cfg/" rel="noopener noreferrer nofollow" target="_blank">Polycom Deskphone – sip.cfg</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/webpage-is-not-available-deskphone-integration/" rel="noopener noreferrer nofollow" target="_blank">Webpage is Not Available (Deskphone Integration)</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/deskphones-local-click-to-dial/" rel="noopener noreferrer nofollow" target="_blank">Deskphones – Local Click-to-Dial</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/enable-click-to-dial-on-vonage-business-desk-phones/" rel="noopener noreferrer nofollow" target="_blank">Enable Click to Dial on Vonage Business desk phones</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cisco-deskphone-configuration/" rel="noopener noreferrer nofollow" target="_blank">Cisco Deskphone Configuration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/snom-deskphone-configuration/" rel="noopener noreferrer nofollow" target="_blank">Snom – Deskphone Configuration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/yealink-deskphone-configuration/" rel="noopener noreferrer nofollow" target="_blank">Yealink Deskphone Configuration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/linksys-deskphone-configuration/" rel="noopener noreferrer nofollow" target="_blank">Linksys Deskphone Configuration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/phones-deskphone-integration/" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Phones – On-Premise PBXs (Cloud Connect)</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/local-pbx-integration/" rel="noopener noreferrer nofollow" target="_blank">Local PBX Integration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/about-cloud-connect-integration/" rel="noopener noreferrer nofollow" target="_blank">About Cloud Connect Integration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-connect-telephone-system/" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect Basics – Telephone System</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-connect-tenfoldbridge-service/" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect – TenfoldBridge Service</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-connect-licensing/" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect – Licensing</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/setup-installation/phones-premise-pbxs-cloud-connect/cloud-connect-server-backup" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect – Server Backup</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-connect-install/" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect – Install</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-connect-click-to-dial/" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect – Click-to-Dial</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-connect-call-activity/" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect – Call Activity</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-connect-monitored-extensions/" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect – Monitored Extensions</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-connect-administration/" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect – Administration</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-connect-viewi/" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect – Viewing Posted Events</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/phones-premise-pbxs-cloud-connect/" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+   <div  class="col-12 ">
+      <div>
+         <h3>Cloud Connect</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/cloud-connect-troubleshooting/" rel="noopener noreferrer nofollow" target="_blank">Cloud Connect – Troubleshooting</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/restarti-services/" rel="noopener noreferrer nofollow" target="_blank">Restarting Cloud Connect Services</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/create-call-sequence" rel="noopener noreferrer nofollow" target="_blank">Create a Call Sequence</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/troubleshooting" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Click to Dial</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/click-to-dial-test-page/" rel="noopener noreferrer nofollow" target="_blank">Click to Dial Test Page</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/disable-google-chat-calling/" rel="noopener noreferrer nofollow" target="_blank">Disable Google Chat Calling</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/asterisk-no-call-recordings-when-usi-dial/" rel="noopener noreferrer nofollow" target="_blank">Asterisk: No Call Recordings When Using Click to Dial</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/collecti/" rel="noopener noreferrer nofollow" target="_blank">Collecting Page HTML</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/click-to-dial-checklist/" rel="noopener noreferrer nofollow" target="_blank">Click To Dial Checklist</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/click-to-dial/" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>CRM Problems</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/crm-problems/missi-sync" rel="noopener noreferrer nofollow" target="_blank">User Missing After Sync</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/crm-problems/netsuite-savi-without-parent-account" rel="noopener noreferrer nofollow" target="_blank">Netsuite – Saving Notes to a Contact</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/crm-problems/crm-records-not-found" rel="noopener noreferrer nofollow" target="_blank">CRM Records Not Found</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/crm-problems/unable-to-save-callsnotes-to-crm" rel="noopener noreferrer nofollow" target="_blank">Unable to Save Calls/Notes to CRM</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/crm-problems/dont-auto-log-calls" rel="noopener noreferrer nofollow" target="_blank">Protected: Don't Auto Logging Calls</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/crm-problems/" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Chrome Extension</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/call-timer-keeps-counting/" rel="noopener noreferrer nofollow" target="_blank">Call Timer Keeps Counting</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/incorrect-call-timer-floati" rel="noopener noreferrer nofollow" target="_blank">Incorrect Call Timer in Floating UI</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/sendi-to-tenfold/" rel="noopener noreferrer nofollow" target="_blank">Sending Console Logs to Tenfold</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/floati/" rel="noopener noreferrer nofollow" target="_blank">Floating UI Troubleshooting</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/chrome-extension/" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Salesforce</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/salesforce/salesforce-logged-calls-show-under-open-activities/" rel="noopener noreferrer nofollow" target="_blank">Salesforce: Logged Calls Show Under Open Activities</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/salesforce/salesforce-api-limits/" rel="noopener noreferrer nofollow" target="_blank">Salesforce API Limits</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/how-can-i-find-the-crm-id-for-a-salesforce-user/" rel="noopener noreferrer nofollow" target="_blank">How can I find the CRM ID for a Salesforce user?</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/400invalid_grant-error/" rel="noopener noreferrer nofollow" target="_blank">400invalid_grant error</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/salesforce-error-the-record-you-were-editi-duri/" rel="noopener noreferrer nofollow" target="_blank">Salesforce Error: Unable to Save Record</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/how-to-disconnect-salesforce-and-tenfold/" rel="noopener noreferrer nofollow" target="_blank">Disconnect Salesforce and Tenfold</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/salesforce-integration" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>SugarCRM</h3>
+         <ul>
+            <li>
+               <a href="https://www.tenfold.com/support-center/disable-skype-out-in-sugarcrm/" rel="noopener noreferrer nofollow" target="_blank">Disable SkypeOut in SugarCRM</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/how-can-i-find-the-crm-id-for-a-sugarcrm-user/" rel="noopener noreferrer nofollow" target="_blank">How can I find the CRM ID for a SugarCRM user?</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/sugarcrm-user-sync-only-imports-20-users/" rel="noopener noreferrer nofollow" target="_blank">SugarCRM user sync only imports 20 users</a>
+            </li>
+            <li>
+               <a href="https://www.tenfold.com/support-center/troubleshooting/sugarcrm" rel="noopener noreferrer nofollow" target="_blank">See all posts</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+</div>
+</j:jelly>]]></html>
+        <name>TenfoldSupportCenter</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-06 08:56:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f20b77fedb0b53804c78c170ba9619d2</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>TenfoldSupportCenter</sys_name>
+        <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
+        <sys_update_name>sys_ui_page_f20b77fedb0b53804c78c170ba9619d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-11 11:28:48</sys_updated_on>
+    </sys_ui_page>
+</record_update>
