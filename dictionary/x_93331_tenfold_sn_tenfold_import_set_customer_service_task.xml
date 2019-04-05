@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Tenfold Import Set Customer Service Task" max_length="40" name="x_93331_tenfold_sn_tenfold_import_set_customer_service_task" type="collection">
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="description" max_length="4000" name="description" type="string"/>
+        <element label="Due date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element label="Opened" max_length="40" name="opened_at" type="glide_date_time"/>
+        <element label="Short description" max_length="160" name="short_description" type="string"/>
+        <element label="Caller" max_length="32" name="x_93331_tenfold_sn_caller_sys_id" reference="sys_user" type="reference"/>
+        <element label="Owner" max_length="32" name="x_93331_tenfold_sn_created_by_sys_id" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
