@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="sys_import_set_row" label="Tenfold Import set Contact" max_length="40" name="x_93331_tenfold_sn_tenfold_import_set_contact" type="collection">
+    <element extends="sys_import_set_row" label="Tenfold Import Set Contact" max_length="40" name="x_93331_tenfold_sn_tenfold_import_set_contact" type="collection">
         <element label="Email" max_length="100" name="email" type="string"/>
         <element label="First Name" max_length="50" name="first_name" type="string"/>
         <element label="Last Name" max_length="50" name="last_name" type="string"/>
