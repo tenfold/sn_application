@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="x_93331_tenfold_sn_call_category" table="sn_openframe_phone_log" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

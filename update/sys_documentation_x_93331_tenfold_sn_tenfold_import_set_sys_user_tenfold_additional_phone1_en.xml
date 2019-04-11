@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="tenfold_additional_phone1" label="Tenfold Additional Phone 1" language="en" table="x_93331_tenfold_sn_tenfold_import_set_sys_user">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>tenfold_additional_phone1</element>

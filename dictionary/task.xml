@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element attributes="reference_index_include=active,all_tables.live_feed=true,all_tables.detail_row=short_description,all_tables.display_color=priority,text_index_translations=true,extension_model=hierarchy,hasListeners=true,largeTable=true" label="Task" max_length="40" name="task" sizeclass="1063" text_index="true" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="reference_index_include=active,all_tables.live_feed=true,all_tables.detail_row=short_description,all_tables.display_color=priority,text_index_translations=true,extension_model=hierarchy,hasListeners=true,largeTable=true" label="Task" max_length="40" name="task" sizeclass="1135" text_index="true" type="collection">
         <element label="Tenfold Caller" max_length="32" name="x_93331_tenfold_sn_caller_sys_id" reference="sys_user" type="reference"/>
         <element label="Tenfold Owner" max_length="32" name="x_93331_tenfold_sn_created_by_sys_id" reference="sys_user" type="reference"/>
     </element>
