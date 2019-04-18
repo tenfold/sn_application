@@ -1,8 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Phone Log" max_length="40" name="sn_openframe_phone_log" type="collection">
         <element label="Tenfold Caller" max_length="32" name="x_93331_tenfold_sn_caller_sys_id" reference="sys_user" type="reference"/>
-        <element label="Tenfold Call Category" max_length="40" name="x_93331_tenfold_sn_call_category" type="string"/>
+        <element choice="1" label="Tenfold Call Category" max_length="40" name="x_93331_tenfold_sn_call_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="General Inquiry" value="general_inquiry"/>
+                <element inactive_on_update="false" label="Hang Up" value="hang_up"/>
+                <element inactive_on_update="false" label="Incident" value="incident"/>
+                <element inactive_on_update="false" label="Problem" value="problem"/>
+                <element inactive_on_update="false" label="Request" value="sc_request"/>
+                <element inactive_on_update="false" label="Status Call" value="status_call"/>
+                <element inactive_on_update="false" label="Wrong Number" value="wrong_number"/>
+            </choice>
+        </element>
         <element display="true" label="Tenfold Description" max_length="700" name="x_93331_tenfold_sn_description" type="string"/>
     </element>
 </database>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Tenfold Import Set Contact" max_length="40" name="x_93331_tenfold_sn_tenfold_import_set_contact" type="collection">
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element label="First Name" max_length="50" name="first_name" type="string"/>
+        <element label="Last Name" max_length="50" name="last_name" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element label="Additional phone 1" max_length="40" name="tenfold_additional_phone_1" type="phone_number_e164"/>
+        <element label="Additional phone 2" max_length="40" name="tenfold_additional_phone_2" type="phone_number_e164"/>
+        <element label="Additional phone 3" max_length="40" name="tenfold_additional_phone_3" type="phone_number_e164"/>
+        <element label="Tenfold Owner" max_length="32" name="tenfold_created_by_sys_id" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="tenfold_created_by_sys_id"/>
+        </index>
+    </element>
+</database>

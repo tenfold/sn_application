@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Tenfold Import Set Phonelog" max_length="40" name="x_93331_tenfold_sn_tenfold_import_set_phonelog" type="collection">
+        <element label="Agent" max_length="32" name="agent" reference="sys_user" type="reference"/>
+        <element label="Call Type" max_length="40" name="call_type" type="string"/>
+        <element label="Contact" max_length="32" name="contact" reference="sys_user" type="reference"/>
+        <element label="Duration" max_length="40" name="duration" type="glide_duration"/>
+        <element label="End time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element label="Caller" max_length="32" name="x_93331_tenfold_sn_caller_sys_id" reference="sys_user" type="reference"/>
+        <element label="Call Category" max_length="40" name="x_93331_tenfold_sn_call_category" type="string"/>
+        <element label="Owner" max_length="32" name="x_93331_tenfold_sn_created_by_sys_id" reference="sys_user" type="reference"/>
+        <element label="Description" max_length="700" name="x_93331_tenfold_sn_description" type="string_full_utf8"/>
+        <index name="index">
+            <element name="agent"/>
+        </index>
+        <index name="index2">
+            <element name="contact"/>
+        </index>
+    </element>
+</database>

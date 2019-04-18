@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tenfold_additional_phone_1" label="Additional phone 1" language="en" table="x_93331_tenfold_sn_tenfold_import_set_contact">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tenfold_additional_phone_1</element>
+            <help/>
+            <hint/>
+            <label>Additional phone 1</label>
+            <language>en</language>
+            <name>x_93331_tenfold_sn_tenfold_import_set_contact</name>
+            <plural>Additional phone 1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-03 21:11:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e3523832dbf47700a18a6f13ca96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Additional phone 1</sys_name>
+            <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_93331_tenfold_sn_tenfold_import_set_contact_tenfold_additional_phone_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-03 21:11:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="oauth_entity">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
     <oauth_entity action="INSERT_OR_UPDATE">
         <access>public</access>
         <access_token_lifespan>600</access_token_lifespan>
@@ -10,6 +9,7 @@
         <client_id>2666a27cbe9e9b00099d1f7de0610c2c</client_id>
         <client_secret>9rDixrIubcY=</client_secret>
         <client_uuid>e266a27cdb9e9b004c78c170ba96192c</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
         <comments/>
         <default_grant_type>password</default_grant_type>
         <id_token_lifespan>86400</id_token_lifespan>
@@ -17,10 +17,13 @@
         <message_signature_lifespan>60</message_signature_lifespan>
         <name>Tenfold</name>
         <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
         <redirect_url>https://api.tenfold.com/v1/third-party/oauth/servicenow/x_93331_tenfold_sn/callback,https://api-canary.tenfold.com/v1/third-party/oauth/servicenow/x_93331_tenfold_sn/callback,https://api-development.tenfold.com/v1/third-party/oauth/servicenow/x_93331_tenfold_sn/callback,https://api-staging.tenfold.com/v1/third-party/oauth/servicenow/x_93331_tenfold_sn/callback</redirect_url>
         <refresh_token_lifespan>8640000</refresh_token_lifespan>
         <revoke_token_url/>
         <salt/>
+        <skip_authorize>false</skip_authorize>
         <sys_class_name>oauth_entity</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 14:49:12</sys_created_on>
@@ -37,6 +40,7 @@
         <sys_updated_on>2018-07-31 09:25:27</sys_updated_on>
         <token_url/>
         <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
         <user/>
     </oauth_entity>
 </record_update>

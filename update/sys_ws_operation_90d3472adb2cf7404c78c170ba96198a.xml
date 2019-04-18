@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>PUT</http_method>
+        <name>table-update-record</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    var baseClient = new BaseClient();
+	var recordData = request.body.data || {};
+	var result;
+	
+	var gr = baseClient.getById(request.pathParams.tableName, request.pathParams.sys_id);
+	
+	if (!gr) {
+		response.setError(baseClient.getNotFoundError());
+	} else {
+		Object.keys(recordData).forEach(function (propName) {
+			gr[propName] = recordData[propName];
+		});
+
+		var updateResult = gr.update();
+		if (!updateResult) {
+			response.setError(baseClient.getUpdateError(gr));
+		} else {
+			result = baseClient.formatRecord(gr, false, []);
+			response.setBody(result);
+		}
+	}
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_93331_tenfold_sn/table/{importSet}/{tableName}/{sys_id}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/{importSet}/{tableName}/{sys_id}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 20:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>90d3472adb2cf7404c78c170ba96198a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>table-update-record</sys_name>
+        <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
+        <sys_update_name>sys_ws_operation_90d3472adb2cf7404c78c170ba96198a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-17 19:07:30</sys_updated_on>
+        <web_service_definition display_value="Table">d7b12784db1e5b004c78c170ba961989</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
