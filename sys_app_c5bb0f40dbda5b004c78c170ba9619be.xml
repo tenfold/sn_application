@@ -17,21 +17,21 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Next Generation CTI. Recognize and respond to your customers at the moment of interaction</short_description>
         <source>x_93331_tenfold_sn</source>
-        <store_correlation_id>APP0011899</store_correlation_id>
+        <store_correlation_id>APP0011912</store_correlation_id>
         <store_url>https://tpp.servicenow.com/sn_appstore_s</store_url>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-21 09:36:16</sys_created_on>
         <sys_id>c5bb0f40dbda5b004c78c170ba9619be</sys_id>
-        <sys_mod_count>125</sys_mod_count>
+        <sys_mod_count>128</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-18 19:16:02</sys_updated_on>
+        <sys_updated_on>2019-04-18 20:35:41</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_93331_tenfold_sn.user" name="x_93331_tenfold_sn.user">81bb074cdbda5b004c78c170ba9619c7</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.68</version>
+        <version>1.0.69</version>
     </sys_app>
 </record_update>
