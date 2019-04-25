@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Tenfold Import Set Task" max_length="40" name="x_93331_tenfold_sn_tenfold_import_set_task" type="collection">
+        <element label="Approval" max_length="40" name="approval" type="string"/>
+        <element label="Contact Type" max_length="40" name="contact_type" type="string"/>
+        <element label="Escalation" max_length="40" name="escalation" type="integer"/>
+        <element label="Impact" max_length="40" name="impact" type="integer"/>
+        <element label="Priority" max_length="40" name="priority" type="integer"/>
+        <element label="Short description" max_length="160" name="short_description" type="string"/>
+        <element label="State" max_length="40" name="state" type="integer"/>
+        <element label="Upon approval" max_length="40" name="upon_approval" type="string"/>
+        <element label="Upon reject" max_length="40" name="upon_reject" type="string"/>
+        <element label="Urgency" max_length="40" name="urgency" type="integer"/>
+    </element>
+</database>

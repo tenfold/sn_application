@@ -7,7 +7,7 @@
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
         <map display_value="Tenfold Follow On Transform">47458a2edba8f7404c78c170ba9619a4</map>
         <reference_value_field/>
-        <source_field>sys_id</source_field>
+        <source_field>sys_target_sys_id</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
 
 	// Add your code here
@@ -20,15 +20,15 @@
         <sys_created_on>2019-04-04 15:29:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fc064a6edba8f7404c78c170ba961932</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>sys_id</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sys_target_sys_id</sys_name>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>sys_transform_entry_fc064a6edba8f7404c78c170ba961932</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-04 15:29:13</sys_updated_on>
+        <sys_updated_on>2019-04-24 18:44:00</sys_updated_on>
         <target_field>sys_id</target_field>
         <target_table>cert_follow_on_task</target_table>
         <use_source_script>false</use_source_script>

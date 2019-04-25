@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sys_import_set_row" label="Tenfold Import Set Incident Task" max_length="40" name="x_93331_tenfold_sn_tenfold_import_set_incident_task" type="collection">
+        <element label="Approval" max_length="40" name="approval" type="string"/>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Contact type" max_length="40" name="contact_type" type="string"/>
         <element label="description" max_length="4000" name="description" type="string"/>
         <element label="Due date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element label="Escalation" max_length="40" name="escalation" type="integer"/>
+        <element label="Impact" max_length="40" name="impact" type="integer"/>
         <element label="Opened" max_length="40" name="opened_at" type="glide_date_time"/>
+        <element label="Priority" max_length="40" name="priority" type="integer"/>
         <element label="Short description" max_length="160" name="short_description" type="string"/>
+        <element label="State" max_length="40" name="state" type="integer"/>
+        <element label="Upon approval" max_length="40" name="upon_approval" type="string"/>
+        <element label="Upon reject" max_length="40" name="upon_reject" type="string"/>
+        <element label="Urgency" max_length="40" name="urgency" type="integer"/>
         <element label="Caller" max_length="32" name="x_93331_tenfold_sn_caller_sys_id" reference="sys_user" type="reference"/>
         <element label="Owner" max_length="32" name="x_93331_tenfold_sn_created_by_sys_id" reference="sys_user" type="reference"/>
         <index name="index">
