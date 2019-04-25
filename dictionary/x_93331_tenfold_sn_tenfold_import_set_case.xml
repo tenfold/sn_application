@@ -15,6 +15,7 @@
         <element label="Short decription" max_length="160" name="short_description" type="string"/>
         <element label="State" max_length="40" name="state" type="integer"/>
         <element label="Subcategory" max_length="40" name="subcategory" type="integer"/>
+        <element label="Target Sys ID" max_length="32" name="target_sys_id" type="string"/>
         <element label="Upon Approval" max_length="40" name="upon_approval" type="string"/>
         <element label="Upon Reject" max_length="40" name="upon_reject" type="string"/>
         <element label="Urgency" max_length="40" name="urgency" type="integer"/>

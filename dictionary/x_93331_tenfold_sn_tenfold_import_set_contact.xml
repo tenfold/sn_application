@@ -14,6 +14,7 @@
         <element label="Notification" max_length="40" name="notification" type="integer"/>
         <element label="Phone" max_length="40" name="phone" type="string"/>
         <element label="Language" max_length="40" name="preferred_language" type="string"/>
+        <element label="Target Sys ID" max_length="32" name="target_sys_id" type="string"/>
         <element label="Tenfold Owner" max_length="32" name="tenfold_created_by_sys_id" reference="sys_user" type="reference"/>
         <element label="Time format" max_length="40" name="time_format" type="string"/>
         <element label="Time zone" max_length="40" name="time_zone" type="string"/>

@@ -7,6 +7,7 @@
         <element label="End time" max_length="40" name="end_time" type="glide_date_time"/>
         <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
         <element label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element label="Target Sys ID" max_length="32" name="target_sys_id" type="string"/>
         <element label="Task" max_length="32" name="task" reference="task" type="reference"/>
         <element label="Caller" max_length="32" name="x_93331_tenfold_sn_caller_sys_id" reference="sys_user" type="reference"/>
         <element label="Call Category" max_length="40" name="x_93331_tenfold_sn_call_category" type="string"/>
