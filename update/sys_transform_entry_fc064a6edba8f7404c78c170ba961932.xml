@@ -3,7 +3,7 @@
         <choice_action>create</choice_action>
         <coalesce>true</coalesce>
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
-        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <coalesce_empty_fields>true</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
         <map display_value="Tenfold Follow On Transform">47458a2edba8f7404c78c170ba9619a4</map>
         <reference_value_field/>
@@ -20,7 +20,7 @@
         <sys_created_on>2019-04-04 15:29:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fc064a6edba8f7404c78c170ba961932</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>target_sys_id</sys_name>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
         <sys_policy/>
@@ -28,7 +28,7 @@
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>sys_transform_entry_fc064a6edba8f7404c78c170ba961932</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-25 19:03:17</sys_updated_on>
+        <sys_updated_on>2019-04-26 18:15:11</sys_updated_on>
         <target_field>sys_id</target_field>
         <target_table>cert_follow_on_task</target_table>
         <use_source_script>false</use_source_script>
