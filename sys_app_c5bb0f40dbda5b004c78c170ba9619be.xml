@@ -24,14 +24,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-21 09:36:16</sys_created_on>
         <sys_id>c5bb0f40dbda5b004c78c170ba9619be</sys_id>
-        <sys_mod_count>128</sys_mod_count>
+        <sys_mod_count>129</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-18 20:35:41</sys_updated_on>
+        <sys_updated_on>2019-04-29 22:51:27</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_93331_tenfold_sn.user" name="x_93331_tenfold_sn.user">81bb074cdbda5b004c78c170ba9619c7</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.69</version>
+        <version>1.0.70</version>
     </sys_app>
 </record_update>
