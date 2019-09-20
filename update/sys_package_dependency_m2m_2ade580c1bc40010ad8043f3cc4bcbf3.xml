@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">c5c28c751b333300ad8043f3cc4bcb0c</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 13:13:15</sys_created_on>
+        <sys_id>2ade580c1bc40010ad8043f3cc4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 13:13:15</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
