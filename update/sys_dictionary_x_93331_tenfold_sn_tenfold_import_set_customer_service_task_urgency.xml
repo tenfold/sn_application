@@ -53,15 +53,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-24 20:58:48</sys_created_on>
-        <sys_id>2aa1494a1bb73300ad8043f3cc4bcb40</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8fc4ee151bbe08501a84628a2d4bcb02</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Urgency</sys_name>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>sys_dictionary_x_93331_tenfold_sn_tenfold_import_set_customer_service_task_urgency</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-17 13:13:30</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-02-05 13:42:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

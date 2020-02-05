@@ -6,6 +6,7 @@
         <element label="Duration" max_length="40" name="duration" type="glide_duration"/>
         <element label="End time" max_length="40" name="end_time" type="glide_date_time"/>
         <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element label="recording url" max_length="1000" name="recording_url" type="string"/>
         <element label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
         <element label="Target Sys ID" max_length="32" name="target_sys_id" type="string"/>
         <element label="Task" max_length="32" name="task" reference="task" type="reference"/>

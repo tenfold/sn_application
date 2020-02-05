@@ -10,11 +10,13 @@
         <sys_class_name>db_image</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-05 19:57:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b5992685db2e53404c78c170ba9619b1</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Tenfold-Icon.png</sys_name>
         <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
         <sys_update_name>db_image_b5992685db2e53404c78c170ba9619b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -28,7 +30,6 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>image</file_name>
-        <hash/>
         <image_height>90</image_height>
         <image_width>90</image_width>
         <size_bytes>2995</size_bytes>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element max_length="40" name="sn_openframe_phone_log" type="collection">
+    <element label="Phone Log" max_length="40" name="sn_openframe_phone_log" type="collection">
         <element label="Tenfold Caller" max_length="32" name="x_93331_tenfold_sn_caller_sys_id" reference="sys_user" type="reference"/>
         <element choice="1" label="Tenfold Call Category" max_length="40" name="x_93331_tenfold_sn_call_category" type="choice">
             <choice>
