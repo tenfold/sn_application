@@ -266,6 +266,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recording_url</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-05 13:48:12</sys_created_on>
+            <sys_id>910f6a9ddbb6c450a18a6f13ca961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_93331_tenfold_sn_tenfold_import_set_phonelog" sys_domain="global" view="Default view">e940061bdb3cb700a18a6f13ca961949</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-05 13:48:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
@@ -274,6 +288,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>jeison.spaniol@snc</sys_created_by>
             <sys_created_on>2019-04-19 09:15:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e940061bdb3cb700a18a6f13ca961949</sys_id>
@@ -282,6 +297,7 @@
             <sys_overrides/>
             <sys_package display_value="Tenfold for ServiceNow" source="x_93331_tenfold_sn">c5bb0f40dbda5b004c78c170ba9619be</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Tenfold for ServiceNow">c5bb0f40dbda5b004c78c170ba9619be</sys_scope>
             <sys_update_name>sys_ui_section_e940061bdb3cb700a18a6f13ca961949</sys_update_name>
             <sys_updated_by>jeison.spaniol@snc</sys_updated_by>
