@@ -20,7 +20,7 @@
         <report/>
         <roles/>
         <survey/>
-        <survey_overwrite>true</survey_overwrite>
+        <survey_overwrite>false</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-06 14:37:51</sys_created_on>
