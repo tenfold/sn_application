@@ -3,7 +3,7 @@
         <element label="Agent" max_length="32" name="agent" reference="sys_user" type="reference"/>
         <element label="Call Type" max_length="40" name="call_type" type="string"/>
         <element label="Contact" max_length="32" name="contact" reference="sys_user" type="reference"/>
-        <element label="Duration" max_length="40" name="duration" type="glide_duration"/>
+        <element label="Duration" max_length="40" name="duration" type="string"/>
         <element label="End time" max_length="40" name="end_time" type="glide_date_time"/>
         <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
         <element label="recording url" max_length="1000" name="recording_url" type="string"/>
